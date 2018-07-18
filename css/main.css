@@ -1,0 +1,128 @@
+html { 
+  background:  url("../img/pizza2.gif") no-repeat center center fixed; 
+  background-size: cover;
+  }
+
+
+/*body
+{
+    background-image: url("../img/pizza2.gif")
+
+}*/
+
+h1 {
+    font-family: pt sans;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 50px orange;
+}
+
+
+/*a
+p {
+    font-family: pt sans;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+}
+
+ {
+	font-family: pt sans;
+    font-size: 12px;
+    color: lightblue;
+   text-align: center;
+  display:block; text-align: center
+}
+*/
+
+.DJ {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.DJ {
+  width:700px;
+  height:700px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+/*#taste {
+    width: 30px;
+    height:100px;
+    background:#e6e6e6;
+    margin:1px;
+    padding: 1em;
+
+}*/
+
+/*#taste2 {
+    width: 30px;
+    height:100px;
+    background: #ffffff;
+    margin:1px;
+    padding: 1em;
+
+}
+
+#taste3 {
+    width: 30px;
+    height:100px;
+    background:#e6e6e6;
+    margin:1px;
+    padding: 1em;
+
+}
+
+#taste4 {
+    width: 30px;
+    height:100px;
+    background:#ffffff;
+    margin:1px;
+    padding: 1em;
+
+}
+
+#taste5 {
+    width: 30px;
+    height:100px;
+    background:#e6e6e6;
+    margin:1px;
+    padding: 1em;
+
+}
+
+#taste6 {
+    width: 30px;
+    height:100px;
+    background: #ffffff;
+    margin:1px;
+    padding: 1em;
+
+}*/
+
+button {
+    width: 120px;
+    height:250px;
+    text-shadow: 0px 0px 50px orange;
+
+}
+
+#audio {
+    position: relative;
+} 
+
+.button-light{
+    background: #0e0d1c;
+}
+
+
+.button-dark{
+    background: #ffffff;
+}
