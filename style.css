@@ -1,0 +1,94 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+h1 {
+    color: grey;
+    font-family: arial, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.header {
+  background-color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+}
+
+
+#text {
+	color: black;
+    font-family: arial, sans-serif, bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    padding-top: auto;
+}
+
+
+#wert {
+	color:white;
+	font-size: 20px;
+	text-align: left;
+
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-image: url(http://www.antenne1.de/imagetypes/antenne_pagebanner/shutterstock_33044002__waniuszka_750.jpg);
+  shape-image-threshold: all;
+  padding: 34px 36px;
+}
+
+/* Style the topnav links 
+.topnav a {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ Change color on hover 
+.topnav a:hover {
+  background-color: lightgreen;
+  color: black;
+}
+*/
+
+/* Create equal columns that floats next to each other */
+#box {
+  float: left;
+  padding: 40px;
+  background-color: grey;
+  width: 45%;
+
+}
+
+#box1 {
+  float: left;
+  padding: 40px;
+  background-color: grey;
+  width: 45%;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  #box.box1{
+    width: 100%;
+  }
+}
+
+
